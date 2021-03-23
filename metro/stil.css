@@ -1,0 +1,47 @@
+.kontejner{
+    display: flex;
+    border:  3px solid rgb(12, 0, 0);
+    background-color: rgb(234, 191, 243);
+    border-top-left-radius: 5mm;
+    border-bottom-left-radius: 5mm;
+
+}
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    border:1px solid black;
+    text-align: left;
+    font-family:sans-serif;
+    color: purple;
+    border-top-left-radius: 5mm;
+    border-bottom-left-radius: 5mm;
+
+}
+.kontRafovi{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+.red{
+    display: flex;
+    flex-grow: 3;
+}
+
+.raff{
+    border: 1px solid black;
+    flex: 1 1 10px;
+    margin: 5px;
+    text-align:center;
+    /*border-radius: 10mm;*/
+}
+.h1
+{
+    font-size: large;
+    color:purple;
+}
+.dugme
+{
+    border-bottom-left-radius: 5mm;
+}
